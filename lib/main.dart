@@ -1,7 +1,6 @@
 // ignore_for_file: prefer_const_constructors
 
-import 'package:belajar_flutter/list_view/listview04.dart';
-import 'package:belajar_flutter/list_view/wisata_screen.dart';
+import 'package:belajar_flutter/form/form_screen.dart';
 import 'package:belajar_flutter/main_layout.dart';
 import 'package:flutter/material.dart';
 
@@ -21,7 +20,7 @@ class BelajarFlutter extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: WisataScreen(),
+      home: BelajarForm(),
     );
   }
 }
